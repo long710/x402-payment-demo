@@ -1,0 +1,23 @@
+{
+  "name": "proto402-x402-test",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "server": "ts-node --esm server.ts",
+    "client": "ts-node --esm client.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.0.0",
+    "@x402/hono": "^2.2.0",
+    "@x402/core": "^2.2.0",
+    "@x402/evm": "^2.2.0",
+    "@x402/fetch": "^2.2.0",
+    "hono": "^4.0.0",
+    "viem": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
